@@ -1,4 +1,4 @@
-#Projeto FTT
+#Projeto FTT#
 
 ##Bem-vindo ao Projeto FTT, uma aplicação para gerenciamento de personagens em forma de lista! Este manual fornece instruções passo a passo sobre como configurar e utilizar o projeto em seu próprio computador.
 
