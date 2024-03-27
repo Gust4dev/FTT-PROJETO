@@ -7,7 +7,7 @@
 ### Pré-requisitos
 + Python 3.x
 + MySQL Server
-+ Um navegador da web moderno (como Chrome, Firefox, ou similar)
++ Um navegador (como Chrome, Firefox, ou similar)
 + Configuração do Ambiente
 
 ### Clone o repositório do projeto para o seu computador:
