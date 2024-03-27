@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de Personagens</title>
+</head>
+
+<body>
+    <h1>Lista de Personagens</h1>
+    <form action="{{ url_for('limpar_personagens') }}" method="post" class="button-form">
+        <button type="submit">Limpar Lista de Personagens</button>
+    </form>
+    <ul>
+        {% for personagem in personagens %}
+            <li>
+                <strong>{{ personagem.nome }}</strong><br>
+                Descrição: {{ personagem.descricao }}<br>
+                Programa: {{ personagem.programa }}<br>
+                Animador: {{ personagem.animador }}<br>
+                Link da Imagem: {{ personagem.link_imagem }}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+
+<style>
+    h1 {
+        text-align: center;
+        border: 1px solid #333;
+        padding: 10px;
+    }
+    ul {
+        list-style-type: none;
+        max-width: 600px;
+        margin: 0 auto; 
+        padding: 20px;
+        border: 1px solid #ccc; 
+        border-radius: 5px;
+    }
+    li {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    button {
+        border: 1px solid #333;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #f0f0f0;
+        cursor: pointer;
+    }
+    .button-form {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    button:hover {
+        background-color: #ddd;
+    }
+</style>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Adicionar Novo Personagem</title>
+</head>
+
+<body>
+    <h1>Adicionar Novo Personagem</h1>
+    <form method="POST">
+        {{ form.csrf_token }}
+        <p>{{ form.nome.label }} {{ form.nome }}</p>
+        <p>{{ form.descricao.label }} {{ form.descricao }}</p>
+        <p>{{ form.link_imagem.label }} {{ form.link_imagem }}</p>
+        <p>{{ form.programa.label }} {{ form.programa }}</p>
+        <p>{{ form.animador.label }} {{ form.animador }}</p>
+        <p><input type="submit" value="Adicionar"></p>
+    </form>
+</body>
+
+<style>
+h1 {
+    text-align: center;
+    border: 1px solid #333;
+    padding: 10px; 
+}
+
+form {
+    display: flex; 
+    flex-direction: column; 
+    max-width: 400px; 
+    margin: 0 auto;
+    padding: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+</style>
+
+</html>
