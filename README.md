@@ -39,7 +39,7 @@ Atualize as configurações do banco de dados no arquivo app.py com suas credenc
 ## Executando o Projeto
 ### Execute o aplicativo Flask:
 
-```app.py```
+```python app.py```
 
 ### Acesse a aplicação em seu navegador:
 
