@@ -21,7 +21,8 @@
 ### Crie e ative um ambiente virtual Python (opcional, mas recomendado):
 
 ```python3 -m venv venv```
-```source venv/bin/activate  # no Windows: venv\Scripts\activate```
+```source venv/bin/activate```
+```# no Windows: venv\Scripts\activate```
 
 ### Instale as dependências do Python:
 
