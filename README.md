@@ -1,4 +1,4 @@
-Bem-vindo ao Projeto FTT, uma aplicação para gerenciamento de personagens de desenhos animados! Este manual fornece instruções passo a passo sobre como configurar e utilizar o projeto em seu próprio computador.
+Bem-vindo ao Projeto FTT, uma aplicação para gerenciamento de personagens em forma de lista! Este manual fornece instruções passo a passo sobre como configurar e utilizar o projeto em seu próprio computador.
 
 Pré-requisitos
 Python 3.x
